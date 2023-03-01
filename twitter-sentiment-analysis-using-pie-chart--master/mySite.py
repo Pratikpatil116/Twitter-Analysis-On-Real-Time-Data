@@ -15,7 +15,7 @@ app.register_blueprint(second)
 # establishing a connection with mysql database made in xampp
 try:
 	conn = mysql.connector.connect(
-		host="sql12.freesqldatabase.com", user="sql12601969", password="UNgQ9hlNvF", database="sql12601969")
+		host="m", user="", password="", database="")
 	cursor = conn.cursor()
 except:
 	print("An exception occurred")
